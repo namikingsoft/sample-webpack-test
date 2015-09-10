@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>App</title>
+    <style>
+      /* Spec実行結果を表示するレイアウトCSS */
+      .layout-spec {
+        position: fixed;
+        overflow: scroll;
+        top: 0; bottom: 0; right: 0;
+        width: 45%;
+        background-color: #eee;
+      }
+      .layout-spec pre {
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- アプリ実行 -->
+    <script src="app.js"></script>
+    <div class="layout-spec">
+      <!-- Spec実行 -->
+      <script src="spec.js"></script>
+    </div><!-- .layout-spec -->
+  </body>
+</html>
