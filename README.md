@@ -1,19 +1,18 @@
 Webpack Test Sample
 ==============================
-Mocha test in browser.
+This is sample run app and mocha spec in browser.
+
+![ScreenShot](example.gif)
+
+Refs: [フロントエンドの継続的テストをMocha+webpack+ブラウザでやってみる](http://blog.namiking.net/post/2015/09/test-webpack-browser/)
 
 
 Quick Start
 ------------------------------
 
 ``` bash
-npm install
-npm run start
-```
-
-Check URL
-```
-http://localhost:8080/webpack-dev-server/
+npm install && npm run start
+open http://localhost:8080/webpack-dev-server/
 ```
 
 
