@@ -21,6 +21,7 @@ module.exports = {
       {
         test: /Spec\.js$/,
         loaders: ['mocha', 'babel'],
+        exclude: /(node_modules|bower_components)/,
       },
     ],
   },
